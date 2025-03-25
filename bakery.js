@@ -39,9 +39,7 @@
             <div class="bk-cc-banner_text">Cookie Consent</div>
             <p class="bk-cc-banner_paragraph">
               By clicking <strong>"Accept"</strong>, you agree to the storing of cookies on your device
-              to enhance site navigation, analyze site usage, and assist in our marketing efforts. View
-              our <a href="/privacy-policy" class="bk-cc-banner_text-link">Privacy Policy</a> for more
-              information.
+              to enhance site navigation, analyze site usage, and assist in our marketing efforts.
             </p>
           </div>
           <div class="bk-cc-banner_buttons-wrapper">

@@ -146,8 +146,8 @@
 }
 
 .bk-cc-banner_buttons-wrapper {
-  min-width: 30%;
-  flex: none;
+  display: flex !important;
+  flex-wrap: nowrap !important;
 }
 
 .bk-cc-prefs_button {
@@ -186,7 +186,9 @@
   font-size: 1.125rem;
   font-family: Antelope, sans-serif;
   text-decoration: none;
-  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .bk-cc-banner_button.bk-cc-button-alt {
@@ -258,7 +260,6 @@
 
 .bk-cc-banner_block {
   margin-right: 2rem;
-  max-width: 70%;
 }
 
 .bk-cc-manager_icon {
