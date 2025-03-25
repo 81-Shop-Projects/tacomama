@@ -146,6 +146,7 @@
 }
 
 .bk-cc-banner_buttons-wrapper {
+  min-width: 30%;
   flex: none;
 }
 
@@ -257,6 +258,7 @@
 
 .bk-cc-banner_block {
   margin-right: 2rem;
+  max-width: 70%;
 }
 
 .bk-cc-manager_icon {
@@ -370,6 +372,7 @@
   .bk-cc-banner_buttons-wrapper {
     margin-top: 1rem;
     font-family: Antelope, sans-serif;
+    width: 100%;
   }
 
   .bk-cc-prefs_submit {
@@ -435,6 +438,7 @@
     text-align: center;
     font-family: Antelope, sans-serif;
     margin-right: 0;
+    width: 100%;
   }
 
   .bk-cc-prefs_buttons-block {
