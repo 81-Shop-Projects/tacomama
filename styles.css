@@ -251,11 +251,12 @@
   background-color: var(--color-secondary);
   color: var(--color-white);
   text-align: center;
+  border: 2px solid var(--color-secondary);
   border-radius: 0.25rem;
-  border-color: transparent;
-  margin-left: 0.75rem;
   padding: 0.875rem 2rem;
   font-size: 1rem;
+  font-family: Antelope, sans-serif;
+  text-decoration: none; /* Add this line */
 }
 
 .bk-cc-banner_block {
@@ -384,6 +385,8 @@
   .bk-cc-prefs_buttons-block {
     margin-bottom: 1rem;
     font-family: Antelope, sans-serif;
+    display: flex !important;
+    flex-wrap: nowrap !important;
   }
 
   .bk-cc-banner_container {
